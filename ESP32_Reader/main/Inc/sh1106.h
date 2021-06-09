@@ -88,5 +88,9 @@ void task_sh1106_display_pattern(void *ignore);
 void task_sh1106_display_clear(void *ignore);
 void task_sh1106_contrast(void *ignore);
 void task_sh1106_display_text(const void *arg_text);
+void sh1106_invert(uint8_t *buf, size_t blen);
+void sh1106_display_text(int page, char * text, int text_len, bool invert);
+void i2c_display_image(int page, int seg, uint8_t * images, int width);
+
 
 #endif /* MAIN_SH1106_H_ */

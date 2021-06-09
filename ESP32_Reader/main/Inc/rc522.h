@@ -1,5 +1,8 @@
 #pragma once
 
+#ifndef _MAIN_RC522_
+#define _MAIN_RC522_
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -89,4 +92,6 @@ void rc522_destroy();
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif

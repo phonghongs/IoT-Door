@@ -1,2 +1,2 @@
-idf_component_register(SRCS "rc522.c" "sh1106.c" "hello_world_main.c"
-                    INCLUDE_DIRS "")
+idf_component_register(SRCS "DisplayUI.c" "rc522.c" "ssd1306.c" "ssd1306_i2c.c" "ssd1306_spi.c" "main.c"
+                    INCLUDE_DIRS "Inc")
