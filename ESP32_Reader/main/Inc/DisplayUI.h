@@ -6,7 +6,7 @@
 
 typedef struct
 {
-    uint8_t _Hour, _Min, _Sec;
+    int _Hour, _Min, _Sec;
 } Time;
 
 typedef struct
